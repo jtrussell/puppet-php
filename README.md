@@ -91,7 +91,7 @@ activated for all activated SAPIs.
     extensions => {
       bcmath    => { },
       imagick   => {
-        provider => pecl,
+        provider => 'pecl',
       },
       xmlrpc    => { },
       memcached => {
